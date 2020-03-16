@@ -6,7 +6,10 @@ namespace App\Search;
 
 class MainSearcherFactory
 {
-    const SEARCHERS = [AddressSearcher::class, CarNumberSearcher::class];
+    const SEARCHERS = [
+        AddressSearcher::class,
+        CarNumberSearcher::class
+    ];
 
     public function createMainSearcher(): MainSearcher
     {

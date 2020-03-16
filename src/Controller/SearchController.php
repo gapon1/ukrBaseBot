@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SearchController extends AbstractController
 {
-    /**
+    /** t
      * @Route("/search/{text}", name="search")
      */
     public function searchAction($text)
